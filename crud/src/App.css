@@ -1,0 +1,10 @@
+.house-list {
+  background-color: linen;
+  text-align: center;
+  
+}
+input {
+  padding: 5px;
+  border-style: groove;
+  border-radius: 5px;
+}
