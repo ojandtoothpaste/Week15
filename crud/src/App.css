@@ -1,10 +1,22 @@
-.house-list {
-  background-color: linen;
-  text-align: center;
-  
-}
-input {
+.userContainer {
+  margin-top: 2em;
+  border: 1px solid black;
   padding: 5px;
-  border-style: groove;
-  border-radius: 5px;
+}
+
+.updateForm {
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  width: auto;
+}
+
+.postNewUser {
+  display: block;
+  text-align: center;
+}
+
+.user {
+  display: block;
+  text-align: center;
 }
