@@ -71,10 +71,9 @@ function updateUser(e,userObject){
   }).then(() => getUsers())
 }
 
-
+//ANCHOR - connecting the post, update and delete
   return (
     <div className="App">
-      {/* CODE BELOW: PART: 5.3 Connecting our POST */}
       <form className='postNewUser'>
         <h3>POST new user form</h3>
         <label>Name </label>
@@ -86,7 +85,6 @@ function updateUser(e,userObject){
         <button onClick={(e) => postNewUser(e)}>Create</button>
       </form>
 
-      {/* CODE BELOW: PART 5.1: Connecting our GET  //  PART 5.4: Connecting our UPDATE */}
       {users.map((user, index) => (
         <div key={index} className='userContainer'>
           <div className='user'>
